@@ -71,3 +71,10 @@ print(f"The sum is {sum}")
 # 2) find the average of those numbers ( hunt: use a loop)
 # 3) print "The average of your numbers is  ----"
 
+user_sum = 0
+for i in range(5):
+    user_num = int(input("Enter a number"))
+    user_sum = user_sum + user_num
+
+average = user_sum/5
+print(f"The average of your numbers is {average}")
