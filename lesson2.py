@@ -73,7 +73,7 @@ print(f"The sum is {sum}")
 
 user_sum = 0
 for i in range(5):
-    user_num = int(input("Enter a number"))
+    user_num = int(input("Enter a number: "))
     user_sum = user_sum + user_num
 
 average = user_sum/5
